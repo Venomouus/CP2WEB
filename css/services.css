@@ -70,7 +70,7 @@ hr {
     display: inline-flex;
     margin-bottom: 0%;
     position: absolute;
-    width: 2.6%;
+    width: 2.4%;
 }
 
 .menu input {
@@ -78,8 +78,8 @@ hr {
     float: right;
     margin: .21% .2% 0% 0%;
     outline: none;
-    padding: 1.4% 0% 1.28% 0%;
-    width: 29.55%;
+    padding: 1.4% 0% 1.4% 0%;
+    width: 39%;
     
 }
 
