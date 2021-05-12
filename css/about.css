@@ -12,13 +12,12 @@ body {
 h2 {
     color: #8FA819;
     font-size: 120%;
-    margin-left: 1%;
+    margin-left: 4%;
 }
 
 h3 {
     color: #3F71B6;
     margin-top: 0%;
-    margin-left: 0%;
 }
 
 hr {
@@ -31,6 +30,9 @@ hr {
 .girassol {
     display: block;
     width: 100%;
+}
+.menu{
+    display: block;
 }
 
 .menu ul {
@@ -75,6 +77,50 @@ hr {
     float: right;
     margin: .21% .2% 0% 0%;
     outline: none;
-    padding: 1.4% 0% 1.5% 0%;
-    width: 39.4%;
+    padding: 1.4% 0% 1.4% 0%;
+    width: 39%;
+    
+}
+
+/* ----- ESQUERDA DA PAGINA ----- */
+.esquerda {
+    float: left;
+    margin-left: 2%;
+    position: relative;
+    width: 32%;
+}
+
+.esquerda img {
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.esquerda p {
+    margin: 0% 0% 8% 0%;
+}
+
+.direita {
+    float: right;
+    position: relative;
+    width: 60%;
+}
+
+.direita h3 {
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+.direita p {
+    margin: 0% 0% 3% 0%;
+}
+/* ----- RODAPÉ ----- */
+footer {
+    background-color: #8FA819;
+    bottom: 0;
+    color: #ffffff;
+    height: 2.5%; 
+    margin: 40% 25% 0% 25%;
+    padding: 0.5% 0% 1% 0%;
+    position: relative;
+    text-align: center;
 }
