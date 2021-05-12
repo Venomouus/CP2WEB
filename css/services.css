@@ -1,0 +1,143 @@
+/* ----- TODO CONTEUDO DA PAGINA -----*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+}
+.content {
+    margin: 0% 25% 0% 25%;
+    word-spacing: 5px;
+}
+
+h2 {
+    color: #8FA819;
+    font-size: 120%;
+    margin-left: 4%;
+}
+
+h3 {
+    color: #3F71B6;
+    margin-top: 0%;
+    margin-left: 1%;
+}
+
+hr {
+    border: none;
+    background-color: #8FA819;
+    height: 4px;
+}
+
+/* -----  MENU ----- */
+.girassol {
+    display: block;
+    width: 100%;
+}
+.menu{
+    display: block;
+}
+
+.menu ul {
+    background-color: #8FA819;
+    display: block;
+    height: 3%;
+    list-style: none;
+    margin: 0% 0% 3% 0%;
+    padding: 0%;
+}
+
+.menu li { 
+    display: flex;
+    display: inline;
+    margin: 0% 0% 0% 2%;
+}
+
+.listamenu a{
+    border-bottom: 0.3em solid #FFCD04;
+    color: #ffffff;
+    display: inline-flex;
+    font-size: 100%;
+    padding: 1.5% 1% 1.5% 1%;
+    text-decoration: none;
+    word-spacing: 0px;
+}
+
+.listamenu  :hover {
+    background-color:#FFCD04;
+}
+
+.lupa {
+    background-color: #f0f5d9;
+    display: inline-flex;
+    margin-bottom: 0%;
+    position: absolute;
+    width: 2.6%;
+}
+
+.menu input {
+    border: 0px;
+    float: right;
+    margin: .21% .2% 0% 0%;
+    outline: none;
+    padding: 1.4% 0% 1.28% 0%;
+    width: 29.55%;
+    
+}
+
+/* ----- ESQUERDA DA PAGINA ----- */
+.esquerda {
+    float: left;
+    margin-left: 2%;
+    position: relative;
+    width: 32%;
+}
+
+.esquerda img {
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.esquerda p {
+    margin: 0% 0% 8% 0%;
+}
+
+/* ----- DIREITA DA PAGINA ----- */
+.direitacima h3 {
+    margin: 5% 0% 0% 4% ;
+}
+
+.direita p {
+    margin-top: 0%;
+}
+.direitacima {
+    float: right;
+    margin-left: 2%;
+    position: relative;
+    width: 60%;
+}
+
+
+.direitacima img {
+    float: right;
+}
+
+.direitabaixo {
+    float: right;
+    margin: 1% 0% 0% 2%;
+    position: relative;
+    width: 60%;
+}
+.direitabaixo img{
+    float: left;
+    margin-right: 2%;
+}
+
+/* ----- RODAPÉ ----- */
+footer {
+    background-color: #8FA819;
+    bottom: 0;
+    color: #ffffff;
+    height: 2.5%; 
+    margin: 40% 25% 0% 25%;
+    padding: 0.5% 0% 1% 0%;
+    position: relative;
+    text-align: center;
+}
